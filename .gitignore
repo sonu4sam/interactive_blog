@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
+blg_env
+all_output.txt
 
 # C extensions
 *.so
