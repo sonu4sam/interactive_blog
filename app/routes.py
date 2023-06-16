@@ -8,6 +8,7 @@ from flask_mail import Message
 
 @app.route('/')
 @app.route('/home')
+@app.route('/index')
 def home():
     posts = Post.query.order_by(Post.timestamp.desc()).all()
     return render_template('index.html', posts=posts)
